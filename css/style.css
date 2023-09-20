@@ -1,0 +1,148 @@
+* {
+  font-family: Helvetica;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Barra de navegação */
+
+header {
+  background-color: rgb(68, 75, 68);
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px goldenrod solid;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cabecalho {
+  text-align: center;
+}
+
+.navegacao {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  width: 22%;
+  font-size: 15px;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+.navegacao:hover {
+  background-color: black;
+}
+
+/* Conteúdo Principal do Site */
+.slogan {
+  background-color: #eee;
+  min-height: 60vh;
+  padding: 50px;
+}
+
+.principal {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.texto {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+h3 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.imagem {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+#img-1 {
+  background-image: url(../img/imagem1.jpg);
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  border: 2px solid goldenrod;
+  background-color: rgb(68, 75, 68);
+  width: 100%;
+  padding: 15px;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.card {
+  width: 45%;
+  display: inline-block;
+  line-height: 1.6;
+  margin: 1% 1%;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+}
+
+.card-title {
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  border-left: 5px solid black;
+  text-align: left;
+  align-items: center;
+}
+
+.btn1 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(68, 75, 68);
+  border: 2px solid goldenrod;
+  width: 100%;
+  padding: 15px;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+.btn1:hover {
+  background-color: black;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(68, 75, 68);
+  border-top: 2px solid goldenrod;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
